@@ -1,0 +1,19 @@
+name: markdownlint
+
+on:
+  # push:
+    # branches: [master, main]
+  pull_request:
+     branches: [master, main]
+
+jobs:
+  linting:
+    name: "Markdown linting"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Run Markdown Lint
+        uses: actionshub/markdownlint@main
+        # with:
+          # args: "**/*.md"

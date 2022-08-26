@@ -56,8 +56,8 @@ extra:
 #      link:  mailto:someone@mail.com
 
 nav:
-#  - Home: index.md
-#  - About: about.md
+  - Home: index.md
+  - About: about.md
 #  - Applications: apps.md
 theme:
   name: material

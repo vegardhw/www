@@ -1,9 +1,11 @@
 name: build-mkdocs-site #
 on:
-  #push:
-  #  branches: #
-  #    - master
-  #    - main
+  # push:
+    # branches: [master, main]
+  pull_request:
+     branches: [master, main]
+     types:
+       - closed
 jobs:
   deploy:
     runs-on: ubuntu-latest
