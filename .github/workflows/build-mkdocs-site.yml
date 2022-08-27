@@ -1,4 +1,4 @@
-name: build-mkdocs-site #
+name: Build MKDocs site #
 on:
   # push:
     # branches: [master, main]
