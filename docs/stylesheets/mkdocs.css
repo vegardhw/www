@@ -1,0 +1,21 @@
+:root {
+    --mossgreen: #32678f;
+}
+
+[data-md-color-scheme="default"] {
+    --md-text-font-family: "Ubuntu";
+    --md-primary-fg-color:        var(--mossgreen);
+    --md-primary-fg-color--light: var(--mossgreen);
+    --md-primary-fg-color--dark:  var(--mossgreen);
+    --md-typeset-a-color: hsl(184,100%,34%);
+    --md-accent-fg-color: hsl(184,100%,34%);
+}
+
+[data-md-color-scheme="slate"] {
+    --md-text-font-family: "Ubuntu";
+    --md-primary-fg-color:        var(--mossgreen);
+    --md-primary-fg-color--light: var(--mossgreen);
+    --md-primary-fg-color--dark:  var(--mossgreen);
+    --md-typeset-a-color: hsl(184,100%,34%);
+    --md-accent-fg-color: hsl(184,100%,34%);
+}
