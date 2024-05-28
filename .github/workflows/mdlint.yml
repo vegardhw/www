@@ -17,4 +17,4 @@ jobs:
         uses: actionshub/markdownlint@main
         #with:
           #args: "**/*.md"
-          #filesToIgnoreRegex: "node_modules\\/.*"
+          filesToIgnoreRegex: "docs\\/altindex.md"
