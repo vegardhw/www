@@ -1,0 +1,29 @@
+{
+    "version": "0.2",
+    "language": "en,nb-no",
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        ".vscode",
+        "megalinter",
+        "package-lock.json",
+        "report",
+        "**/.sh",
+        "**/.bicep",
+        "./mkdocs.yml"
+    ],
+    "words": [
+        "Appcleaner",
+        "Exposé",
+        "fontawesome",
+        "Minimise",
+        "mkdocs",
+        "ncdu",
+        "neofetch",
+        "tldr",
+        "trackpad",
+        "vegardhw",
+        "Walmsness"
+    ]
+}
