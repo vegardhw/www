@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Run Markdown Lint
         uses: actionshub/markdownlint@main
-        #with:
+        with:
           #args: "**/*.md"
           filesToIgnoreRegex: "docs\\/altindex.md"
