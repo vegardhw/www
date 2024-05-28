@@ -4,10 +4,6 @@
 
 ## Addons
 
-!!! tip "Terminal tips and tricks"
-
-    See the Terminal guides for more info about more terminal commands and how to build your perfect terminal.
-
 | Name               | Install source | Description |
 | ------------------ | -------------- | ---- |
 | bat                | Brew formulae  |      |
