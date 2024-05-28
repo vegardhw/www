@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Run Markdown Lint
         uses: actionshub/markdownlint@main
-        with:
+        #with:
           #args: "**/*.md"
-          args: ["--ignore", "altindex.md" "photography/index.md"]
+          #filesToIgnoreRegex: "node_modules\\/.*"
