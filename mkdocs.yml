@@ -1,12 +1,12 @@
 # Project
-site_name: 'techblog@vegardhw.net'
-site_description: 'Technical ramblings'
+site_name: 'vegardhw.net'
+site_description: 'Technical ramblings and other stuff'
 site_author: 'Vegard Hoff Walmsness'
-site_url: https://blog.vegardhw.net
+site_url: https://www.vegardhw.net
 
 # Repository
-repo_name: vegardhw/blog
-repo_url: https://github.com/vegardhw/blog
+repo_name: www.vegardhw.net
+repo_url: https://github.com/vegardhw/www
 
 plugins:
   - search
@@ -14,14 +14,20 @@ plugins:
   - awesome-pages
   - macros
   - mkdocs-video
+  - tags
+  - blog:
+      blog_dir: techtalk
+  - blog:
+      blog_dir: outdoorstalk
 
 markdown_extensions:
   - pymdownx.snippets
   - admonition
   - attr_list
+  - md_in_html
   - codehilite
   - footnotes
-  - lightgallery
+#  - lightgallery
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -29,11 +35,11 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-      options:
-        custom_icons:
-          - overrides/.icons
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #    options:
+  #      custom_icons:
+  #        - overrides/.icons
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
@@ -48,27 +54,50 @@ markdown_extensions:
 
 extra:
   social:
+    - icon:  fontawesome/brands/twitter
+      link:  https://twitter.com/vegardhw
     - icon:  fontawesome/brands/github
       link:  https://github.com/vegardhw
-    - icon:  fontawesome/brands/slack
-      link:  https://someone.slack.com
-#    - icon:  fontawesome/solid/envelope
-#      link:  mailto:someone@mail.com
+#    - icon:  fontawesome/brands/slack
+#      link:  https://someone.slack.com
+    - icon:  fontawesome/solid/envelope
+      link:  mailto:vegardhw@mail.com
 
 nav:
-  - Home: index.md
+# - TechTalk:
+#   - techtalk/index.md
+  - TechGuides:
+    - index.md
+    - macOS:
+      - guides/macos/initial-config.md
+#     - guides/macos/terminal-basics.md
+      - guides/macos/third-party-apps.md
+    - Linux:
+      - guides/linux/index.md
+    - Windows:
+      - guides/windows/index.md
+  - Photography:
+    - photography/index.md
+#  - OutdoorsTalk:
+#    - outdoorstalk/index.md
   - About: about.md
-#  - Applications: apps.md
+
 theme:
   name: material
+  custom_dir: docs/theme_override_up42
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - content.code.copy
+    - content.action.edit
 #    - navigation.tracking
 #    - navigation.tabs.sticky
 #    - navigation.expand
-#   - toc.integrate
-  logo: https://asite.com/alogo.svg
+#    - toc.integrate
+  logo: https://am3pap006files.storage.live.com/y4mt5MG90rCFHX5zpfBer-sC_osV7XARnYuqUC9LSz7QPUQovBRSsLL5JlToJsRGRRAwDFiiwnGATo6c89QKpMNtzoPQ2XJO05MRBjCuGmoVrmXEQt4OTQJbGaMsqBKUkIpbsyTgxrkpkamxF9QM8JBdEwYx43p1r8pjoQnCun-nknMx17VQ1-u5rRWY_pLeaP4?width=421&height=421&cropmode=none
   favicon: https://asite.com/alogo.svg
   icon:
     repo: fontawesome/brands/github
@@ -91,3 +120,4 @@ theme:
       # accent: amber
 extra_css:
   - stylesheets/mkdocs.css
+  - https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin

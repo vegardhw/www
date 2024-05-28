@@ -1,1 +1,3 @@
-# Main page
+# TechGuides
+
+Guides, walkthroughs, tips & tricks.
