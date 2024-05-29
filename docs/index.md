@@ -1,3 +1,3 @@
 # TechGuides
 
-Guides, walkthroughs, tips & tricks.
+Guides, how-tos, tips & tricks.
