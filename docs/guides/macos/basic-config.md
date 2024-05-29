@@ -1,4 +1,4 @@
-# Initial configuration
+# Basic configuration
 
 A fresh new installation of macOS with its defaults will serve you quite well but still there are some essential adjustments and configuration steps that I always go through. This is my list based on my personal preference.
 

@@ -69,7 +69,7 @@ nav:
   - TechGuides:
     - index.md
     - macOS:
-      - guides/macos/initial-config.md
+      - guides/macos/basic-config.md
 #     - guides/macos/terminal-basics.md
       - guides/macos/third-party-apps.md
     - Linux:
