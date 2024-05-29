@@ -50,6 +50,6 @@ Another important setting to make Mission Control application overview even more
 
 ## Other settings
 
-Keyboard navigation is another handy feature that should be 'on' by default. Why would you not use 'tab' to move around in a dialog window?
+Keyboard navigation is another handy feature that should be 'on' by default. Why would you not prefer the option to use 'tab' to move around in a dialog window?
 
 ![1716882880205](image/initial-config/1716882880205.png)
