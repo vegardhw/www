@@ -1,4 +1,4 @@
-# Photography resources
+# Photography
 
 ![1708440348380](image/index/1708440348380.png)
 
