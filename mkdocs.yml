@@ -66,7 +66,7 @@ extra:
 nav:
 # - TechTalk:
 #   - techtalk/index.md
-  - 💻:
+  - TechGuides:
     - index.md
     - macOS:
       - guides/macos/basic-config.md
@@ -76,11 +76,11 @@ nav:
       - guides/linux/index.md
     - Windows:
       - guides/windows/index.md
-  - 📸:
+  - Photography:
     - photography/index.md
 #  - OutdoorsTalk:
 #    - outdoorstalk/index.md
-  - ℹ️: about.md
+  - About: about.md
 
 theme:
   name: material
