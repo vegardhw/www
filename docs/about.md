@@ -1,4 +1,4 @@
-# About
+# ℹ️
 
 <img align="right" src="https://avatars.githubusercontent.com/u/14834153" width="150">
 
