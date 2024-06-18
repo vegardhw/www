@@ -38,7 +38,7 @@ The "tap to click" set to "on" is my preferred choice. You can still do the full
 
 ![1708353759922](image/initial-config/1708353759922.png)
 
-The Mission Control and App Exposé I use absolutely all the time to be in control of screens and windows. No matter how many active windows and dialog prompts open this thing just works. One of the classic complaints/questions of fist-time Windows users on macOS is the "Where did my app window go?" Mission Control helps with that. It has a dedicated button on the keyboard (F3), but you can also activate it with Control + Arrow key combo or perform the swipe up with three fingers trackpad gesture.
+I use Mission Control and App Exposé all the time to manage my screens and windows effectively. No matter how many active windows and dialog prompts are open, these tools just work seamlessly. One of the classic complaints or questions from first-time Windows users on macOS is, "Where did my app window go?" Mission Control helps with that. It has a dedicated button on the keyboard (F3), but you can also activate it with the Control + Arrow key combination or by swiping up with three fingers on the trackpad.
 
 App Exposé is the same thing but only with your active/focused application windows and dialog prompts. Run it by pressing the Control + Arrow down key combo or perform the three fingers swipe down trackpad gesture.
 
