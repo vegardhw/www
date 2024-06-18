@@ -1,0 +1,37 @@
+:root {
+    --black: #000000;
+}
+
+[data-md-color-scheme="default"] {
+    --md-text-font-family: "Ubuntu";
+    --md-primary-fg-color:        var(--black);
+    --md-primary-fg-color--light: var(--black);
+    --md-primary-fg-color--dark:  var(--black);
+    --md-typeset-a-color: #e64444 !important;
+    --md-accent-fg-color: #ff9090 !important;
+/*  --md-typeset-a-color: #355374;
+    --md-accent-fg-color: #6590bd;*/
+    --md-default-bg-color: #e1e1e1;
+    --md-footer-bg-color: var(--black);
+}
+
+[data-md-color-scheme="slate"] {
+    --md-text-font-family: "Ubuntu";
+    --md-primary-fg-color:        var(--black);
+    --md-primary-fg-color--light: var(--black);
+    --md-primary-fg-color--dark:  var(--black);
+    --md-typeset-a-color: #ffa929 !important;
+    --md-accent-fg-color: #fad76d !important;
+    /*--md-hue: 210; /* [0, 360] */
+    --md-default-bg-color: #1d1f23;
+    --md-footer-bg-color: var(--black);
+}
+
+.md-typeset h1 {
+    /*font-weight: bold;*/
+    color: var(--md-typeset-a-color);
+}
+
+.twitter {
+    color: #1DA1F2;
+}
